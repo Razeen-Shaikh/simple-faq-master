@@ -1,18 +1,16 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">Simple FAQ | devChallenges</h1>
 
 <div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="https://devchallenges.io" target="_blank">devChallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://razeen-shaikh.github.io/simple-faq-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/Razeen-Shaikh/simple-faq-master">
       Solution
     </a>
     <span> | </span>
@@ -22,8 +20,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -31,56 +27,48 @@
   - [Useful resources](#useful-resources)
 - [Built with](#built-with)
 - [Features](#features)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
+- [Author](#author)
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Screenshot of the Simple FAQ page](./thumbnail.jpg)
 
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- What have you learned/improved?
-- Your wisdom? :)
--->
+A responsive **Frequently Asked Questions** page built to match the devChallenges references in `/design` (desktop ~1350px, tablet ~1024px, mobile ~412px). It includes a hero block, two FAQ sections with semantic lists, styled links, and a footer credit. Background colors swap at **768px** so mobile keeps a white header over a light gray content area, while larger viewports use a light gray hero and white main section.
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+- Semantic structure (`header`, `main`, `section`, headings, `ol` / `ul`) improves accessibility and keeps the markup easy to read and change.
+- **CSS custom properties** centralize colors and fonts so tweaks stay consistent across breakpoints.
+- One **mobile-first media query** (`min-width: 768px`) was enough to mirror the different mockups without duplicating HTML.
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+- [Simple FAQ challenge](https://devchallenges.io/challenge/simple-faq-challenge) — Official brief and community solutions.
+- [MDN — Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) — Reference for breakpoint styling.
 
-### Built with
+## Built with
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- Semantic HTML5 markup
+- Semantic HTML5
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Responsive CSS (mobile-first, `min-width` media query)
+- [Inter](https://fonts.google.com/specimen/Inter) (Google Fonts)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+- Centered content column with spacing aligned to the design JPGs.
+- FAQ blocks: order tracking (numbered list) and return policy (bullets with bold lead-in labels).
+- Styled links for “Tracking page”, “Help Center”, and “Return Policy”.
+- Favicon from `/resources/favicon.ico`.
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
+This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+- [devChallenges.io](https://devchallenges.io/) for the challenge and starter files.
+- Design references in the `/design` folder.
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website [your-website.com](https://iamrazeen.vercel.app/)
+- GitHub [@your-username](https://github.com/Razeen-Shaikh)
